@@ -20,7 +20,7 @@ Este projeto apresenta uma modelagem de banco de dados NoSQL usando MongoDB para
 - [x] 02 Atualizações
 - [x] 01 Remoção
 
-##Consultas
+## Consultas
 - [x] 01 com Coleção inteira
 - [x] 01 com Contagem de documentos na coleção
 - [ ] 03 consultas com filtros diversos (IN, GT, etc), sem projeção
