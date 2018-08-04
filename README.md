@@ -5,9 +5,9 @@
 Este projeto apresenta uma modelagem de banco de dados NoSQL usando MongoDB para um sistema de gerenciamento de clínica especializada odontologica com escopo reduzido. Está sendo abordado o relacionamento entre pessoas da clinica, como dentistas, funcionarios e pacientes, assim como a relação entre eles. </p> 
 
 ## Modelo Conceitual
-
+![Modelo Conceitual](https://github.com/kmlporto/ProjetoMongoDB/blob/master/Conceitual.png)
 ## Mapeamento
-
+![Mapeamento](https://github.com/kmlporto/ProjetoMongoDB/blob/master/mapeamento.jpg)
 ## Requisitos
 
 - [x] Descrição da aplicação
