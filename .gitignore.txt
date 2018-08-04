@@ -1,5 +1,0 @@
-# Ignorando pasta Modelo Conceitual/
-Modelo Conceitual/
-
-# Ignorando arquivo do word
-.doc
