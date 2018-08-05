@@ -1,4 +1,4 @@
-#Projeto NoSQL
+﻿#Projeto NoSQL
 ---
 ## Descrição
 
@@ -23,11 +23,11 @@ Este projeto apresenta uma modelagem de banco de dados NoSQL usando MongoDB para
 ## Consultas
 - [x] 01 com Coleção inteira
 - [x] 01 com Contagem de documentos na coleção
-- [ ] 03 consultas com filtros diversos (IN, GT, etc), sem projeção
-- [ ] 03 consultas com filtros diversos, com projeção
-- [ ] 01 consulta com filtro, projeção e uso de expressão regular
-- [ ] 01 consulta com acesso a array de elementos
-- [ ] 01 consulta com acesso a estrutura embutida
-- [ ] 01 consulta com função de agregação (sum, avg, max ou min)
-- [ ] 01 consulta que use distinct ou limit
-- [ ] 01 outra consulta a seu critério, explicando o porquê dela
+- [x] 03 consultas com filtros diversos (IN, GT, etc), sem projeção
+- [x] 03 consultas com filtros diversos, com projeção
+- [x] 01 consulta com filtro, projeção e uso de expressão regular
+- [x] 01 consulta com acesso a array de elementos
+- [x] 01 consulta com acesso a estrutura embutida
+- [x] 01 consulta com função de agregação (sum, avg, max ou min)
+- [x] 01 consulta que use distinct ou limit
+- [x] 01 outra consulta a seu critério, explicando o porquê dela
