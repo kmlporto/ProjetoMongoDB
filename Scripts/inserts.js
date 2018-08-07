@@ -10,7 +10,6 @@ db.createCollection("Pessoas",{
 db.Pessoas.insertMany(
     [
         {
-
             _id : ObjectId("5b64f3b42ff0d9a341ac1ad0"),
             nome: "Jaqueline Yasmin Emanuelly Nascimento",
             sexo: "f",
@@ -27,8 +26,7 @@ db.Pessoas.insertMany(
         },
         {
             _id : ObjectId("5b64f3b42ff0d9a341ac1ad1"),
-
-            nome: "Miguel Vitor Lu�s Melo",
+            nome: "Miguel Vitor Luís Melo",
             sexo: "m",
             cpf: "607.799.684-09",
             telefone: ["(83) 3976-1933"],
@@ -36,40 +34,33 @@ db.Pessoas.insertMany(
             tipo: "paciente"
         },
         {   
-
             _id : ObjectId("5b64f3b42ff0d9a341ac1ad2"),
             nome: "Stella Alessandra Rebeca da Rosa",
             sexo: "f",
             cpf: "802.563.944-40",
             telefone: [
-
                 "(83) 99598-6095", 
-
                 "(83) 3557-4043"],
             dataNasc: new Date ("1998-08-17"),
             endereço: {
-                bairro: "Mu�umagro",
-                rua: "Rua das Goiabeiras n 237"
+                bairro: "José Américo de Almeida",
+                rua: "Rua Edson da Silva Souza n 237"
             },
             tipo: "paciente"
          },
          {
-
-             _id: ObjectId("5b64f3b42ff0d9a341ac1ad3"),
+            _id: ObjectId("5b64f3b42ff0d9a341ac1ad3"),
             nome: "Sandra Carolina Almeida",
             sexo: "f",
             cpf: "894.513.534-02",
             telefone: [
-
                 "(83) 3994-6368", 
-
                 "(83) 99488-8481"],
             dataNasc: new Date ("1961-05-06"),
             tipo: "paciente"
         },
         {
             _id: ObjectId("5b64f3b42ff0d9a341ac1ad4"),
-
             nome: "Victor Yuri da Luz",
             sexo: "m",
             cpf: "822.840.294-50",
@@ -79,7 +70,6 @@ db.Pessoas.insertMany(
         },
         {
             _id: ObjectId("5b64f3b42ff0d9a341ac1ad5"),
-
             nome: "Carlos Eduardo Joaquim",
             sexo: "m",
             cpf: "620.891.724-79",
@@ -89,14 +79,11 @@ db.Pessoas.insertMany(
         },
         {
             _id: ObjectId("5b64f3b42ff0d9a341ac1ad6"),
-
             nome: "Nelson Caio Ferreira",
             sexo: "m",
             cpf: "931.910.504-93",
             telefone: [
-
                 "(83) 99598-6095", 
-
                 "(83) 3557-4043"],
             dataNasc: new Date ("1988-10-25"),
             endereço: {
@@ -107,8 +94,7 @@ db.Pessoas.insertMany(
         },
        {
             _id: ObjectId("5b64f3b42ff0d9a341ac1ad7"),
-
-            nome: "Elisa Vit�ria da Mata",
+            nome: "Elisa Vitória da Mata",
             sexo: "f",
             cpf: "028.200.744-05",
             telefone: [
@@ -254,7 +240,7 @@ db.Pessoas.insertMany([
         },
         {
             _id: ObjectId("5b64ff502ff0d9a341ac1ae1"),
-            nome: "Eloá Hadassa Assun��o",
+            nome: "Eloá Hadassa Almeida",
             sexo: "f",
             cpf: "619.965.214-20",
             telefone: [
@@ -263,7 +249,7 @@ db.Pessoas.insertMany([
                 "(83) 98810-4769"],
             dataNasc: new Date ("1971-05-18"),
             endereço: {
-                bairro: "Ernani S�tiro",
+                bairro: "Ernani Sátiro",
                 rua: "Rua Severina Ferreira n 137"
             },
             tipo: "dentista",
@@ -286,7 +272,7 @@ db.Pessoas.insertMany([
                 "(83) 99669-0592"],
             dataNasc: new Date ("1993-04-01"),
             endereço: {
-                bairro: "Alto do C�u",
+                bairro: "Alto do Céu",
                 rua: "Rua Francisco Barbosa da Silva n 901"
             },
             tipo: "dentista",
