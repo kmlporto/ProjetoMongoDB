@@ -12,7 +12,7 @@ db.Pessoas.update(
         telefone: [{numero: "(83) 9942-8182"}],
         dataNasc: new Date("1991-06-17"),
         tipo: "paciente",
-        endereço:{
+        endereco:{
                 bairro: "Bessa",
                 rua: "Rua Francisco Gonçalves"
             }
@@ -20,9 +20,9 @@ db.Pessoas.update(
     },
     {upsert: true}
 )
-    
+
 db.Pessoas.update( 
-    {"endereço.bairro": "Bessa" , "endereço.rua": /Francisco Gonçalves/},
+    {"endereco.bairro": "Bessa" , "endereco.rua": /Francisco Gonçalves/},
     {$set: {
-        "endereço.bairro": "Jardim Oceania"}}
-)  
+        "endereco.bairro": "Jardim Oceania"}}
+)
